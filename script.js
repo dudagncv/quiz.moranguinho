@@ -21,7 +21,7 @@ const perguntas = [
                 afirmacao: "Chase Atlantic."
             },
             {
-                 texto: "Uma noite onde você observa as estrelas e se perde nas memórias",
+                 texto: "Uma noite onde você observa as estrelas e a cidade",
                 afirmacao: "Bôa."
             }
             
@@ -31,44 +31,65 @@ const perguntas = [
         enunciado: "Escolha uma frase",
         alternativas: [
             {
-                texto: "Floresta",
-                afirmacao: "Lázaro barbosa."
+                texto: "Estive sozinho quase a vida toda, garota, E esse tipo de coisa não muda da noite pro dia",
+                afirmacao: "Chase Atlantic."
             },
             {
-                texto: "Praia",
-                afirmacao: "Alfred Ballí Treviño."
+                texto: "Agora eu vejo o mundo como um lugar onde eu possa correr para me esconder",
+                afirmacao: "Bôa."
             },
             {
-               texto: "Outro país",
-                afirmacao: "Pablo Escobar."
+               texto: "Vocês pensam que estamos na mesma página, mas não estamos",
+                afirmacao: "Deftones."
             },
             {
-                texto: "Interior de uma cidade",
-                afirmacao: "Lázaro barbosa."  
+                texto: "Eu vou digerir você, um beijo de cada vez, você deseja que eu seja seu e eu espero que você seja minha",
+                afirmacao: "The Neighbourhood."  
             }
         ]
     },
     {
-        enunciado: "Se você fosse escolher um objeto qual seria? ",
+        enunciado: "Escolha um lugar",
         alternativas: [
             {
-                texto: "Faca",
-                afirmacao: "Lázaro barbosa."
+                texto: "Biblioteca",
+                afirmacao: "Bôa."
             },
             {
-                texto: "Arma",
-                afirmacao: " Pablo Escobar. "
+                texto: "Loja de Discos de Vinil",
+                afirmacao: "Deftones. "
             },
             {
-                texto: "Espada",
-                afirmacao: "Zoro." 
+                texto: "Praia",
+                afirmacao: "The Neighbourhood." 
             },
             {
-                texto: "Luva com lâminas afiadas",
-                afirmacao: "Freddy Krueger. "
+                texto: "Floresta",
+                afirmacao: "Chase Atlantic. "
             }
         ]
     },
+     {
+        enunciado: "Qual desses tema você mais pensa?",
+        alternativas: [
+            {
+                texto: "Relacionamentos",
+                afirmacao: "Chase Atlantic."
+            },
+            {
+                texto: "Quem você é",
+                afirmacao: "Bôa."
+            },
+            {
+               texto: "Moralidade e ética",
+                afirmacao: "Deftones."
+            },
+            {
+                texto: "Memórias",
+                afirmacao: "The Neighbourhood."  
+            }
+        ]
+    }
 ];
 let atual = 0;
 let perguntaAtual;
