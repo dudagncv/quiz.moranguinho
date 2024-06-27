@@ -70,18 +70,18 @@ const perguntas = [
         ]
     },
      {
-        enunciado: "Qual desses tema você mais pensa?",
+        enunciado: "Qual desses temas você mais pensa?",
         alternativas: [
             {
                 texto: "Relacionamentos",
                 afirmacao: "Chase Atlantic."
             },
             {
-                texto: "Quem você é",
+                texto: "Quem você é?",
                 afirmacao: "Bôa."
             },
             {
-               texto: "Moralidade e ética",
+               texto: "Sentimentos",
                 afirmacao: "Deftones."
             },
             {
@@ -130,10 +130,10 @@ function mostraResultado() {
     textoResultado.textContent = "Bôa é uma banda de Rock Alternativo que trata sobre amor e o indivíduo na sociedade em suas músicas. Bôa possui uma vocalista com descendência oriental, a vocalista conta em muitas músicas da banda como ela, uma mulher oriental se sente em relação ao amor e como indivíduo numa sociedade americana. As recomendações de música são: Fool, Twilight e For Jasmine";
     caixaAlternativas.textContent = "Bôa";
     caixaPerguntas.textContent = "Deftones";
-    textoResultado.textContent = "Deftones é uma banda de Metal Alternativo,  em suas músicas eles narram sobre memórias e questões morais que são corrompidas pelos sentimentos mundanos: amor, sofrimento, raiva, tédio. Deftones é uma banda que traz uma narrativa de forma nua e crua os sentimentos mundanos. As recomendações de música são: Beware, Change e Knife Party";
+    textoResultado.textContent = "Deftones é uma banda de Metal Alternativo,  em suas músicas eles narram sobre questões morais que são corrompidas pelos sentimentos mundanos: amor, sofrimento, raiva, tédio. Deftones é uma banda que traz uma narrativa de forma nua e crua os sentimentos mundanos. As recomendações de música são: Beware, Change e Knife Party";
     caixaAlternativas.textContent = "Deftones";
     caixaPerguntas.textContent = "Chase Atlantic";
-    textoResultado.textContent = "Chase Atlantic é uma banda Alternativa/Indie assim como Deftones esle narram sobre questões morais que são corrompidas pelos sentimentos mundanos mas principalmente pelo vício. Chase Atlantic é uma banda que mescla o Indie com o R&B oque atrai muitos jovens pela batida sensual e o significado imoral das letras. As recomendações de música são: Empty, Chase e Numb to the Feeling";
+    textoResultado.textContent = "Chase Atlantic é uma banda Alternativa/Indie, suas músicas narram sobre questões morais que são corrompidas pelos sentimentos mundanos mas principalmente pelo vício. Chase Atlantic é uma banda que mescla o Indie com o R&B oque atrai muitos jovens pela batida sensual e o significado imoral das letras. As recomendações de música são: Empty, Chase e Numb to the Feeling";
     caixaAlternativas.textContent = "Chase Atlantic";
     
 }
