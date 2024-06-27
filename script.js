@@ -123,9 +123,20 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
-    textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "";
+    caixaPerguntas.textContent = "The Neighbourhood";
+    textoResultado.textContent = "The Neighbourhood é uma banda de Indie Rock que trata sobre relacionamentos, memórias e o amor em suas músicas. The Neighbourhood é a minha banda favorita justamente por botar todos os meus sentimentos e questões pessoais em músicas maravilhosas. As recomendações de música são: Lurk, 1 of those Weaks e Sadderdaze";
+    caixaAlternativas.textContent = "The Neighbourhood";
+    caixaPerguntas.textContent = "Bôa";
+    textoResultado.textContent = "Bôa é uma banda de Rock Alternativo que trata sobre amor e o indivíduo na sociedade em suas músicas. Bôa possui uma vocalista com descendência oriental, a vocalista conta em muitas músicas da banda como ela, uma mulher oriental se sente em relação ao amor e como indivíduo numa sociedade americana. As recomendações de música são: Fool, Twilight e For Jasmine";
+    caixaAlternativas.textContent = "Bôa";
+    caixaPerguntas.textContent = "Deftones";
+    textoResultado.textContent = "Deftones é uma banda de Metal Alternativo,  em suas músicas eles narram sobre memórias e questões morais que são corrompidas pelos sentimentos mundanos: amor, sofrimento, raiva, tédio. Deftones é uma banda que traz uma narrativa de forma nua e crua os sentimentos mundanos. As recomendações de música são: Beware, Change e Knife Party";
+    caixaAlternativas.textContent = "Deftones";
+    caixaPerguntas.textContent = "Chase Atlantic";
+    textoResultado.textContent = "Chase Atlantic é uma banda Alternativa/Indie assim como Deftones esle narram sobre questões morais que são corrompidas pelos sentimentos mundanos mas principalmente pelo vício. Chase Atlantic é uma banda que mescla o Indie com o R&B oque atrai muitos jovens pela batida sensual e o significado imoral das letras. As recomendações de música são: Empty, Chase e Numb to the Feeling";
+    caixaAlternativas.textContent = "Chase Atlantic";
+    
 }
+
 
 mostraPergunta();
