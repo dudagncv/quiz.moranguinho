@@ -41,90 +41,42 @@ export const perguntas =[
          ] 
     },
   {
-    enunciado:"Pra onde você iria se tivesse que fugir ?",
+    enunciado:"Para você uma noite perfeita seria?",
     alternativas:[
        {
-           texto:"FLORESTA"
+           texto:"Uma noite fria na praia onde você está sozinha sentindo o vento e observando o mar"
            afirmacao:[
-               "Lázaro Barbosa",
-               "Não gosta de pessoas é prefere animais é sua própria companhia ",
-               " É o que eu mais me identifico."
+               "Deftones",
+               "Qualquer lugar onde você possar refletir é um bom lugar."
 
            ],
            proxima:1,
        },
        {
-           texto:"PRAIA"
+           texto:"Uma noite bem animada com os amigos em um parque de diversão"
            afirmacao:[
-               "Alfred Ballí Treviño.",
-               "Gosta de lugar ensolarado e mar",
-                "É o que eu mais me identifico"
+               "The Neighbourhood.",
+                "Viver com as pessoas que você ama é como um presente"
            ],
            proxima:2,
        },
        {
-           texto:"OUTRO PAÍS"
+           texto:"Uma noite onde você dirige um carro em alta velocidade com o som no talo"
            afirmação:[
-               "Plabo Escobar",
-               "Fácil de se esconder e ainda conheço outros lugares",
-               "É o que eu mais me identifico"
+               "Chase Atlantic",
+               "Adrenalina e alguns prazeres da vida fazem valer a pena"
 
            ],
            proxima:3,
        },
        {
-           texto:"INTERIOR DE UMA CIDADE"
+           texto:"Uma noite onde você observa as estrelas e a cidade"
            afirmacao:[
-             "Lázaro barbosa.",
-             "Quem vai no fim do mundo me procurar?",
-              "É o que eu mais me identifico."
+             "Bôa.",
+              "Pensamentos gritam muito alto em sua cabeça."
            ],
            proximo:4,
        },
          
     ] 
-},
-{
-    enunciado:"Se você fosse escolher um objeto qual seria ?",
-    alternativas:[
-       {
-           texto:"FACA"
-           afirmacao:[
-               "Lázaro Barbosa.",
-               "É o que tem perto.",
-               " É o que eu mais me identifico."
-
-           ],
-           proxima:1,
-       },
-       {
-           texto:"ARMA"
-           afirmacao:[
-               "Pablo Escobar.",
-               "Mata mais fácil.",
-                "É o que eu mais me identifico"
-           ],
-           proxima:2,
-       },
-       {
-           texto:"ESPADA"
-           afirmação:[
-               "Espadachim",
-               "Se acha o Zoro",
-               "É o que eu mais me identifico"
-
-           ],
-           proxima:3,
-       },
-       {
-           texto:"LUVA COM LÂMINAS AFIADAS"
-           afirmacao:[
-             "Freddy Krueger.",
-             "Acho legal",
-              "É o que eu mais me identifico"
-           ],
-           proximo:4,
-       },
-         
-    ] 
-};
+}
